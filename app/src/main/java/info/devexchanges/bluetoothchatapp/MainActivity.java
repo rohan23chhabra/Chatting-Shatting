@@ -88,11 +88,11 @@ public class MainActivity extends AppCompatActivity {
                     switch (msg.arg1) {
                         case ChatController.STATE_CONNECTED:
                             setStatus("Connected to: " + connectingDevice.getName());
-                            btnConnect.setEnabled(false);
+                            //btnConnect.setEnabled(false);
                             break;
                         case ChatController.STATE_CONNECTING:
                             setStatus("Connecting...");
-                            btnConnect.setEnabled(false);
+                            //btnConnect.setEnabled(false);
                             break;
                         case ChatController.STATE_LISTEN:
                         case ChatController.STATE_NONE:
